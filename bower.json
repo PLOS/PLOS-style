@@ -6,7 +6,6 @@
   ],
   "description": "This is a library of shared .scss resources for PLOS visitor fac",
   "main": "[resources]",
-  "dependencies":"git@github.com:PLOS/PLOS-style.git"
   "keywords": [
     "PLOS",
     "sass",
