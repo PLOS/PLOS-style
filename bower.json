@@ -5,13 +5,15 @@
     "Polina Grinbaum <anilop>"
   ],
   "description": "This is a library of shared .scss resources for PLOS visitor fac",
-  "main": "[]",
+  "main": "[resources]",
+  "dependencies":"git@github.com:PLOS/PLOS-style.git"
   "keywords": [
     "PLOS",
     "sass",
     "scss",
     "styling"
   ],
+ 
   "license": "MIT",
   "ignore": [
     "**/.*",
