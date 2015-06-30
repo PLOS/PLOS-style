@@ -6,7 +6,7 @@
   ],
   "description": "This is a library of shared .scss resources for PLOS visitor fac",
   "main": "[
-    resources/fonts
+    resources
     ]",
   "keywords": [
     "PLOS",
