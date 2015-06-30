@@ -13,7 +13,7 @@
     "styling"
   ],
  "dependencies": {
-  "PLOS-style": "git@github.com:PLOS/wombat/src/main/webapp/WEB-INF/themes/desktop/sass.git"
+  "PLOS-style": "https://github.com/PLOS/wombat/blob/master/src/main/webapp/WEB-INF/themes/desktop/sass/_variables.scss"
  },
   "license": "MIT",
   "ignore": [
