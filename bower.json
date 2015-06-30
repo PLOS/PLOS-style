@@ -5,7 +5,9 @@
     "Polina Grinbaum <anilop>"
   ],
   "description": "This is a library of shared .scss resources for PLOS visitor fac",
-  "main": "[resources]",
+  "main": "[
+    resources/fonts
+    ]",
   "keywords": [
     "PLOS",
     "sass",
