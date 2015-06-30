@@ -12,9 +12,6 @@
     "scss",
     "styling"
   ],
- "dependencies": {
- // "variables": "git@github.com:PLOS/wombat/src/main/webapp/WEB-INF/themes/desktop/sass/_variables.scss"
- },
   "license": "MIT",
   "ignore": [
     "**/.*",
