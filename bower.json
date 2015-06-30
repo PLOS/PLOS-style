@@ -13,7 +13,7 @@
     "styling"
   ],
  "dependencies": {
-  "variables": "anilop@github.com:PLOS/wombat/blob/master/src/main/webapp/WEB-INF/themes/desktop/sass/_variables.scss"
+  "variables": "git@github.com:PLOS/wombat/blob/master/src/main/webapp/WEB-INF/themes/desktop/sass/_variables.scss"
  },
   "license": "MIT",
   "ignore": [
