@@ -4,7 +4,7 @@
   "authors": [
     "Polina Grinbaum <anilop>"
   ],
-  "description": "This is a library of shared UI resources for ",
+  "description": "This is a library of shared UI resources for PLOS web properties",
   "main": ["resource/fonts", "sass/"],
   "keywords": [
     "PLOS",
