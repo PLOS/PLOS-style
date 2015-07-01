@@ -4,8 +4,8 @@
   "authors": [
     "Polina Grinbaum <anilop>"
   ],
-  "description": "This is a library of shared .scss resources for PLOS visitor fac",
-  "main": "[resources]",
+  "description": "This is a library of shared UI resources for ",
+  "main": "[PLOS-shared-styles]",
   "keywords": [
     "PLOS",
     "sass",
@@ -19,5 +19,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "PLOS-variables": "https://raw.githubusercontent.com/PLOS/wombat/master/src/main/webapp/WEB-INF/themes/desktop/sass/_variables.scss?token=AAb4Ww7u2ktZz9xD_u5Ce0OQsDvkXs2Qks5VnGfBwA%3D%3D",
+    "rem-calc": "https://raw.githubusercontent.com/PLOS/wombat/master/src/main/webapp/WEB-INF/themes/desktop/sass/vendor/foundation/_functions.scss?token=AAb4WyUcw1wyi5_JYZjQecHmh-UO5W5eks5VnGlTwA%3D%3D"
+  }
 }
