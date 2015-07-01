@@ -5,7 +5,7 @@
     "Polina Grinbaum <anilop>"
   ],
   "description": "This is a library of shared UI resources for ",
-  "main": ["src/main/webapp/WEB-INF/themes/desktop/"],
+  "main": ["resource/fonts", "sass/"],
   "keywords": [
     "PLOS",
     "sass",
