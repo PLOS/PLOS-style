@@ -1,5 +1,4 @@
-//Need to set font dir
-$font-dir: "resource/fonts/";
+//Need to set font dir!
 
 @mixin font-face($name,$font-file) {
   @font-face {
