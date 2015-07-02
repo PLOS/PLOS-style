@@ -1,0 +1,16 @@
+//Need to set font dir
+$font-dir: "resource/fonts/";
+
+@mixin font-face($name,$font-file) {
+  @font-face {
+    font-family: quote($name);
+  src: url($font-dir + $font-file + '.ttf') format('truetype'), 
+  url($font-dir + $font-file + '.otf') format('opentype'),
+  url($font-dir + $font-file + '.svg') format('svg'),
+  url($font-dir + $font-file + '.woff') format('woff');
+  }
+}
+
+@include font-face("albert", "fs_albert");
+@include font-face("albert-bold", "fs_albert-bold-webfont");
+@include font-face("FontAwesome", "fontawesome-webfont");
