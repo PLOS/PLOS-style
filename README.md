@@ -1,3 +1,6 @@
+# Disclaimer
+Use at your own risk. We take no responsibility for this code.
+
 # PLOS-style
 A shared repository for fonts, styles and the like. 
 
