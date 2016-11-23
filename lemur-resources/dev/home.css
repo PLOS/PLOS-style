@@ -68,7 +68,7 @@ option          | result
 `$pad-default`| 20px
 `$pad-medium`|  30px
 `$pad-large`| 40px
-`$font-face-fancy`| Albert font
+`$font-face-fancy`| Open Sans font
 `$font-face-plain` | arial font
 `$clr-brand`| sets the journal color
 `$clr-highlight`| sets the plos-default color */
@@ -130,7 +130,7 @@ option          | result
 `$pad-default`| 20px
 `$pad-medium`|  30px
 `$pad-large`| 40px
-`$font-face-fancy`| Albert font
+`$font-face-fancy`| Open Sans font
 `$font-face-plain` | arial font
 `$clr-brand`| sets the journal color
 `$clr-highlight`| sets the plos-default color */
@@ -459,7 +459,7 @@ p.lead { font-size: 1.03125rem; line-height: 1.6; }
 p aside { font-size: 0.8125rem; line-height: 1.125rem; font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", Arial, sans-serif; font-weight: normal; font-style: normal; color: #333333; text-rendering: optimizeLegibility; margin-top: 0; margin-bottom: 1.6875rem; line-height: 1.3; }
+h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-weight: normal; font-style: normal; color: #333333; text-rendering: optimizeLegibility; margin-top: 0; margin-bottom: 1.6875rem; line-height: 1.25; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 0.75rem; color: #333333; line-height: 0; }
 
 h1 { font-size: 1rem; }
@@ -531,7 +531,7 @@ blockquote, .block-quote, .pullquote, blockquote p, .block-quote p, .pullquote p
 .vevent .summary { font-weight: bold; }
 .vevent abbr { cursor: default; text-decoration: none; font-weight: bold; border: none; padding: 0 0.0625rem; }
 
-@media only screen and (min-width: 0em) { h1, h2, h3, h4, h5, h6 { line-height: 1.3; }
+@media only screen and (min-width: 0em) { h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
   h1 { font-size: 1.625rem; }
   h2 { font-size: 1.25rem; }
   h3 { font-size: 1rem; }
@@ -1721,7 +1721,17 @@ h3 { margin-bottom: 1rem; margin-top: 1.5rem; }
 
 h4, h5 { margin-top: 0.5625rem; }
 
-.title-small { font-size: 13px; font-weight: bold; }
+.title-small, .title-small-sans { font-size: 13px; font-weight: bold; }
+
+.title-medium { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 18px; }
+
+.title-small-sans { font-family: "arial"; }
+
+.title-primary-large { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 32px; line-height: 1.25; }
+
+.title-primary { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 26px; line-height: 1.25; }
+
+.title-secondary { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 22px; line-height: 1.25; margin-bottom: 27px; }
 
 .block-global-alert, .block-aperta { margin: 1.6875rem 0 1.125rem 0; padding: 1.125rem 1.25rem; font-size: 0.8125rem; line-height: 1.125rem; }
 
@@ -1746,7 +1756,7 @@ blockquote, .block-quote, .pullquote, .pullquote, .block-quote { font-size: 0.81
 
 .block .category, #article-list .category, #issue .category, #article-list h3 { margin-bottom: 0.625rem; }
 
-#blogs .block-header, .carousel-wrap.small .block-header { color: white; padding: 0 1.25rem; font-family: "Open Sans", Arial, sans-serif; font-size: 0.875rem; line-height: 2.5rem; height: 2.5rem; }
+#blogs .block-header, .carousel-wrap.small .block-header { color: white; padding: 0 1.25rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 0.875rem; line-height: 2.5rem; height: 2.5rem; }
 
 /*doc
 ---
@@ -1795,7 +1805,7 @@ example | extension
 
 .roman { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 
-.sans-serif { font-family: "Arial Narrow", Arial, sans-serif; }
+.sans-serif { font-family: "Arial Narrow", Arial, Helvetica, sans-serif; }
 
 /*doc
 ---
@@ -1835,19 +1845,19 @@ table.table-zebra-stripes thead tr th { background: #666666; color: white; }
 
 .home main h2, .home main h3, .home main h4, .home main h5, .block.small .title, .small#article-list .title, .small#issue .title, .carousel-wrap.small .carousel li h3 { line-height: 1; color: #333333; font-weight: normal; margin-top: .2rem; margin-bottom: .2rem; }
 
-.block .category, #article-list .category, #issue .category, #article-list h3, .header-allcaps-smallest, .more-link > a, #issue .boxtitle a { font-size: 0.8125rem; font-family: "Open Sans", Arial, sans-serif; }
+.block .category, #article-list .category, #issue .category, #article-list h3, .header-allcaps-smallest, .more-link > a, #issue .boxtitle a { font-size: 0.8125rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
 .header-allcaps-smallest, .more-link > a { font-family: "arial"; }
 
 #issue .boxtitle a { font-size: 1.25rem; }
 
-.block.small .title, .small#article-list .title, .small#issue .title { font-size: 0.875rem; font-family: "Open Sans", Arial, sans-serif; font-weight: bold; }
+.block.small .title, .small#article-list .title, .small#issue .title { font-size: 0.875rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-weight: bold; }
 
-#submission-links h3, #social-links h3 { font-size: 1.25rem; color: white; font-family: "Open Sans", Arial, sans-serif; }
+#submission-links h3, #social-links h3 { font-size: 1.25rem; color: white; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
-.block .title, #article-list .title, #issue .title { font-size: 1.25rem; font-family: "Open Sans", Arial, sans-serif; }
+.block .title, #article-list .title, #issue .title { font-size: 1.25rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
-.carousel-wrap.small .carousel li h3 { font-size: 1.125rem; font-family: "Open Sans", Arial, sans-serif; }
+.carousel-wrap.small .carousel li h3 { font-size: 1.125rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
 #submission-links h3 { padding-bottom: 1.0625rem; margin-bottom: 1.0625rem; box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.3); text-align: center; }
 
@@ -2275,14 +2285,14 @@ body.plosone .nav .nav-user li.highlighted > a:hover { color: white; }
 .logo a { display: block; height: 100%; }
 
 /* using Foundation Top Bar all @extend .class are Foundation */
-.nav-main { margin-bottom: 1.25rem; font-family: "Open Sans", Arial, sans-serif; }
+.nav-main { margin-bottom: 1.25rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 .nav-main > .dropdown { visibility: hidden; }
 
 .top-bar-section { width: 40.83333rem; float: right; }
-.top-bar-section ul.nav-elements .menu-section-header { font-family: "Open Sans", Arial, sans-serif; font-size: 20px; }
+.top-bar-section ul.nav-elements .menu-section-header { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 20px; }
 .top-bar-section ul.nav-elements .menu-section li > a, .top-bar-section .dropdownanchor, .top-bar-section ul > li.has-dropdown.hover ul.dropdown li a { width: 100%; padding: 0.25rem 1.5625rem !important; font-size: 14px; white-space: pre-wrap; }
 .top-bar-section ul.nav-elements .menu-section li > a:hover, .top-bar-section .dropdownanchor:hover, .top-bar-section ul > li.has-dropdown.hover ul.dropdown li a:hover { color: white; background: #3c63af; }
-.top-bar-section h2, .top-bar-section h3 { font-family: "Open Sans", Arial, sans-serif; font-size: 20px; }
+.top-bar-section h2, .top-bar-section h3 { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 20px; }
 .top-bar-section ul.nav-elements { padding-right: 0; }
 .top-bar-section ul.nav-elements > li { margin-left: 0.1875rem; line-height: 2.5rem; padding: 0 0.9375rem; }
 .top-bar-section ul.nav-elements ul.dropdown li a, .top-bar-section ul.nav-elements ul.dropdowncallout li a { line-height: 1.5em !important; }
@@ -2320,14 +2330,14 @@ body.plosone .top-bar-section ul > li.has-dropdown.hover .mega { left: -30rem; }
 .top-bar-section .calloutcontainer .button-contain { float: right; width: 14.6875rem; text-align: right; white-space: nowrap; height: 2.1875rem; }
 .top-bar-section .calloutcontainer .button-contain a { padding-top: 0; padding-bottom: 0; }
 .top-bar-section .calloutcontainer .button-contain a.button { top: 0; }
-.top-bar-section .calloutcontainer .button-contain a.button-link { font-family: "Open Sans", Arial, sans-serif; font-size: 18px; background: #333333 !important; white-space: nowrap; margin-left: 0.625rem; vertical-align: middle; line-height: 35px; }
+.top-bar-section .calloutcontainer .button-contain a.button-link { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 18px; background: #333333 !important; white-space: nowrap; margin-left: 0.625rem; vertical-align: middle; line-height: 35px; }
 .top-bar-section .calloutcontainer .button-contain a.button-link:hover { background: #333333 !important; color: #3c63af; }
 .top-bar-section .head-search { padding-top: 2px; padding-left: 1.25rem; padding-right: 0; text-align: right; border-left: 1px solid #efefef; }
 .top-bar-section .head-search form { background: white; display: inline-block; }
 .top-bar-section .head-search form input:focus, .top-bar-section .head-search form select:focus, .top-bar-section .head-search form textarea:focus, .top-bar-section .head-search form button:focus { outline: none; }
 .top-bar-section .head-search form legend, .top-bar-section .head-search form label { display: none; }
 .top-bar-section .head-search form fieldset { border: none; margin: 0; padding: 0 0.625rem; background-color: white; }
-.top-bar-section .head-search form input[type="text"] { margin: 0; padding: 0.5625rem 0 0.625rem; border: none; display: inline-block; width: 9.375rem; font-family: "Open Sans", Arial, sans-serif; font-size: 20px; color: #666666; top: 0 !important; }
+.top-bar-section .head-search form input[type="text"] { margin: 0; padding: 0.5625rem 0 0.625rem; border: none; display: inline-block; width: 9.375rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 20px; color: #666666; top: 0 !important; }
 .top-bar-section .head-search form ::-webkit-input-placeholder { color: #333333; }
 .top-bar-section .head-search form :-moz-placeholder { /* Firefox 18- */ color: #333333; }
 .top-bar-section .head-search form ::-moz-placeholder { /* Firefox 19+ */ color: #333333; }
@@ -2455,8 +2465,7 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 
 .carousel-wrap.small { height: 15.625rem; }
 
-.home main { color: #333333; }
-.home main h1, .home main h2, .home main h3, .home main h5, .home main h6 { font-family: "Open Sans", Arial, sans-serif; line-height: 1; margin-bottom: 0; }
+.home main h1, .home main h2, .home main h3, .home main h5, .home main h6 { font-family: "Open Sans", Arial, Helvetica, sans-serif; line-height: 1; margin-bottom: 0; }
 .home main h1 { font-size: 2rem; }
 .home main h1 a:hover { text-decoration: none; }
 .home main p { line-height: 0.9375rem; margin-bottom: 0.3125rem; }
@@ -2501,7 +2510,7 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 .row.three .row-small-blocks .small .date, .row.three .row-small-blocks .small .category { margin-bottom: 0.15625rem; }
 .row.three .row-small-blocks .small .date { float: none !important; margin-right: 0; }
 .row.three .row-small-blocks .small .title { margin-top: 0.15625rem; }
-.row.three .row-small-blocks .small .title a { font-family: "Open Sans", Arial, sans-serif; font-weight: bold; font-size: 0.875rem; color: #666666; text-decoration: none; }
+.row.three .row-small-blocks .small .title a { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-weight: bold; font-size: 0.875rem; color: #666666; text-decoration: none; }
 .row.three .row-small-blocks .small .title a:hover, .row.three .row-small-blocks .small .title a a:hover { color: #3c63af; text-decoration: none; }
 
 #billboard { padding: 0.625rem 1.25rem; margin-bottom: 1.25rem; background: #333333; position: relative; }
@@ -2513,7 +2522,7 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 #article-list { height: 15.625rem; position: relative; }
 #article-list ul.list-plain { line-height: normal; }
 #article-list ul.list-plain li { color: #333333; margin-bottom: 15px; }
-#article-list ul.list-plain li a { display: block; font-family: "Open Sans", Arial, sans-serif; font-size: 12px; }
+#article-list ul.list-plain li a { display: block; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 12px; }
 
 .more-link { position: absolute; bottom: 0.625rem; left: 0.625rem; right: auto; }
 
@@ -2522,7 +2531,7 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 #issue { height: 15.625rem; }
 #issue .current-img { width: 10rem; }
 #issue .boxtitle { margin-top: 0.3125rem; }
-#issue .boxtitle a { display: block; margin-bottom: 0.3125rem; font-weight: 900; }
+#issue .boxtitle a { display: block; margin-bottom: 0.3125rem; }
 #issue .boxtitle .subhead { font-face: "arial"; font-size: 16px; }
 
 #twitter { margin-bottom: 1rem; }
@@ -2530,11 +2539,11 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 .linkbox { height: 25.625rem; }
 .linkbox .image-header { background-color: #1c2e5e; text-align: center; }
 .linkbox ul li { padding: 1.25rem 1.875rem; border-top: 1px solid #efefef; }
-.linkbox ul li a { font-family: "Open Sans", Arial, sans-serif; font-size: 1rem; }
+.linkbox ul li a { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 0.875rem; }
 
 #submission-links { border-radius: 5px; padding: 0.625rem 1.875rem 0.3125rem 1.875rem; margin-bottom: 1.25rem; background: #333333; }
 #submission-links p { text-align: center; margin: 1.25rem auto 0.625rem auto; }
-#submission-links a { color: #89a0d0; text-decoration: none; font-size: 16px; font-family: "Open Sans", Arial, sans-serif; }
+#submission-links a { color: #89a0d0; text-decoration: none; font-size: 16px; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 #submission-links a:hover, #submission-links a a:hover { color: #89a0d0; text-decoration: underline; }
 #submission-links .split-container { margin: 0 0 0.625rem; line-height: inherit; }
 #submission-links .split-item { margin: 0 !important; width: 50%; height: 40px; text-align: center; }
@@ -2547,7 +2556,7 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 #social-links ul > li > a { background: #3c63af; border-radius: 5px; display: inline-block; height: 44px; text-align: center; color: white; }
 #social-links ul > li > a:hover { background: #333333; }
 #social-links ul > li .social { width: 44px; }
-#social-links ul .social-blogs { width: 6.5rem; line-height: 44px; font-size: 1rem; font-family: "Open Sans", Arial, sans-serif; }
+#social-links ul .social-blogs { width: 6.5rem; line-height: 44px; font-size: 1rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
 #blogs { height: 15.625rem; position: relative; }
 #blogs.tall { height: 26.5625rem; }
@@ -2558,11 +2567,20 @@ div.inlinePopup input[type="button"]:hover { background: #3c63af !important; col
 #blogs #blogrss .postimg { float: left; height: 4.6875rem; width: 2.1875rem; background-size: cover; background-position: center; margin-right: 0.625rem; margin-bottom: 0; }
 #blogs #blogrss .postdate { margin: 0; font-size: 10px; font-family: "arial"; color: #666666; padding: 0; }
 #blogs #blogrss .posttitle { height: 30px; line-height: 15px; overflow: hidden; margin: 0.3125rem 0; }
-#blogs #blogrss .posttitle a { font-family: "Open Sans", Arial, sans-serif; font-size: 13px; }
+#blogs #blogrss .posttitle a { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 13px; }
 #blogs #blogrss .postauthor { color: #666666; margin: 0; padding: 0; }
 #blogs .more-link { bottom: 0.625rem; left: 5.3125rem; }
 
 #ad-slot-bottom .ad-item { text-align: center; padding: 0.1875rem; margin: 1.25rem; margin-top: 0; }
+
+#social-links { border-radius: 5px; padding: 0.3125rem; margin-bottom: 1.25rem; background: #04417d; }
+#social-links h3 { text-indent: 0.625rem; margin-bottom: 0.625rem; margin-top: 0.625rem; font-weight: normal; }
+#social-links ul { list-style: none; margin: 0 0 0 -0.25rem; }
+#social-links ul > li { float: left; margin: 0 0 0 0.25rem; }
+#social-links ul > li > a { background: #3c63af; border-radius: 5px; display: inline-block; height: 44px; text-align: center; color: white; }
+#social-links ul > li > a:hover { background: #333333; }
+#social-links ul > li .social { width: 44px; }
+#social-links ul .social-blogs { width: 6.5rem; line-height: 44px; font-size: 1rem; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
 /*
 This is the visible area of you carousel.
