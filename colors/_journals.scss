@@ -1,0 +1,96 @@
+//journal specific
+
+$plos-default: #3c63af; //blue
+$plos-one: #f8af2d; //yellow
+$plos-bio: #16a127; //green: biology, comp-bio, genetics
+$plos-med: #891fb1; // purple: medicine, pathogens, ntds
+$plos-currents: #1dbfe0; // light blue
+$generic-brand: #4A1010;
+
+//hues for background shading
+$plos-default-shade1: #abc2e8;
+$plos-default-shade2: #93aad0;
+$plos-default-shade3: #c6d7f2;
+// the shades aren't straight percentages or hue variations, so it is necessary to list each one
+$plos-one-shade1: #fcd5a3;
+$plos-one-shade2: #fbe989;
+$plos-one-shade3: #fadfbe;
+
+$plos-bio-shade1: #a8e2be;
+$plos-bio-shade2: #92e5ab;
+$plos-bio-shade3: #caeed7;
+
+$plos-med-shade1: #d4afe0;
+$plos-med-shade2: #c493d4;
+$plos-med-shade3: #decbe4;
+
+$clr-brand: $plos-default;
+
+$black: #000;
+$white: #fff;
+$grey-dark: #333;
+
+$grey-med-dark: #666;
+$grey-med: #707070;
+
+$grey-med-light: #ccc;
+$grey-light: #efefef;
+$grey-tinytext: #bbb;// TEMP PROD: change uses to grey-med-light
+
+$tabs-base-color: #2b2b2b;
+$table-header-bg: #a0a0a0;
+
+$warning: #e53350;
+$alert: #ffd87a;
+$success: #16a127;
+
+//colors
+
+$clr-highlight: $plos-default !default;
+$clr-highlight-hover: $plos-default !default;
+$clr-highlight-text: $white !default;
+
+$clr-tooltip-text: #a7bee9;
+$clr-link-against-dark: #89a0d0;
+
+$clr-body-bg: $white;
+$clr-panel: $white;
+$clr-header: $grey-light;
+$clr-separator: $grey-med-light;
+
+$clr-link: $clr-highlight;
+$clr-body-text: $grey-dark;
+$clr-link-hover: $grey-dark;
+$clr-muted: $grey-med-dark;
+$clr-light-text: $white;
+$clr-callout-bg: $grey-light;
+$clr-alert: $alert;
+$clr-warning: $warning;
+$clr-warning-bg: #fce2e5;
+
+$clr-success: $success;
+
+$clr-btn-primary: $clr-highlight;
+$clr-btn-secondary: $grey-dark;
+$clr-btn-disabled: $grey-med-light;
+$clr-btn-text: $white;
+$clr-callout-bg:  $grey-light;
+
+$clr-input-placeholder: $grey-dark;
+$clr-input-active: $grey-med-dark;
+$clr-input-disabled: $grey-light;
+
+$clr-aperta: #8ecb87;
+
+$clr-home-subscription-bg: #7f8b91;
+$clr-home-subscription-button: #1d877f;
+
+$modal-close-btn-width: rem-calc(46);
+$modal-close-btn-height: $modal-close-btn-width;
+$modal-overlay-bg-color: rgba(0,0,0,0.5);
+
+$table-separator-color: $clr-separator;
+$table-separator-width: 1px;
+$table-separator-header-color: $clr-body-text;
+$table-separator: $table-separator-width solid $table-separator-color;
+$table-separator-header: $table-separator-width solid $table-separator-header-color;
