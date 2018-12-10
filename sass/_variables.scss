@@ -18,20 +18,29 @@ For example: instead of using `font-size: 22px` you should  instead use `font-si
 
 //journal specific
 
-$plos-default: #3c63af; //blue
-$plos-one: #f8af2d; //yellow
+$plos-default: #606060; //grey
+
 $plos-bio: #16a127; //green: biology, comp-bio, genetics
 $plos-med: #891fb1; // purple: medicine, pathogens, ntds
 $plos-currents: #1dbfe0; // light blue
+$plos-blue: #3c63af;
+$plos-collections: $plos-blue;
+$generic-brand: $plos-blue;
 
-//hues for background shading
-$plos-default-shade1: #abc2e8;
-$plos-default-shade2: #93aad0;
-$plos-default-shade3: #c6d7f2;
+// plos one rebrand 2018
+$plos-one: #d7df23; //lime
+$plos-one-purple: #3e0577;
+$plos-one-pink: #cc00a6;
+$plos-one-teal: #3daca0;
+
+//hues for background shading - mostly for signposts for article
+$plos-default-shade1: #f0f0f0;
+$plos-default-shade2: #e0e0e0;
+$plos-default-shade3: #d0d0d0;
 // the shades aren't straight percentages or hue variations, so it is necessary to list each one
-$plos-one-shade1: #fcd5a3;
-$plos-one-shade2: #fbe989;
-$plos-one-shade3: #fadfbe;
+$plos-one-shade1: #ecf09b;
+$plos-one-shade2: $plos-one;
+$plos-one-shade3: #f4f6c3;
 
 $plos-bio-shade1: #a8e2be;
 $plos-bio-shade2: #92e5ab;
@@ -41,27 +50,27 @@ $plos-med-shade1: #d4afe0;
 $plos-med-shade2: #c493d4;
 $plos-med-shade3: #decbe4;
 
-$clr-brand: $plos-default;
 
-$black: #000;
+$black: #101010;
 $white: #fff;
-$grey-dark: #333;
-$grey-blah: #3b3b3b;
+$off-white: #efefef;
+$grey-dark: #303030;
 
-$grey-med-dark: #666;
-$grey-med: #707070;
-$grey-blah: #3b3b3b;
+$grey-med-dark: #606060;
+$grey-med: #909090;
 
-$grey-med-light: #ccc;
-$grey-light: #efefef;
+$grey-med-light: #c0c0c0;
+$grey-light: #e0e0e0;
 $grey-tinytext: #bbb;// TEMP PROD: change uses to grey-med-light
 
-$tabs-base-color: #2b2b2b;
+$tabs-base-color: #202020;
 $table-header-bg: #a0a0a0;
 
 $warning: #e53350;
-$alert: #ffd87a;
-$success: #16a127;
+$alert: #f4f6c3;
+$success: lighten($plos-one-teal, 50%);
+
+$clr-brand: $grey-med;
 
 //colors
 
